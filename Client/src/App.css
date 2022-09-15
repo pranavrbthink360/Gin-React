@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:#05d7fa;
+  color: white;
+}
+
+#usernameVal {
+  text-align: end;
+  margin-right: 1%;
+  /* display: none; */
+  color: oldlace;
+}
+
+#loginBtn:hover{
+  background-color:#1469eb;
+  color:ivory;
+}
+
+#Header{
+  background-color: #1cb4e3;
+}
+
+#submitBtn{
+  margin-top: 1%;
+  background-color:#1de251;
+  color: white;
+  border-color:white;
+  font-size: medium;
+}
+
+#submitBtn:hover{
+  box-shadow: 2px 2px 5px gray;
+}
